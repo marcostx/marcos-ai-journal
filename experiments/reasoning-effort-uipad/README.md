@@ -29,21 +29,25 @@ The evaluation covers its four answer types:
 
 Use the official test split. Record the dataset revision or commit hash so the experiment can be reproduced.
 
-## Experimental design
+## How to run
 
-Run every selected question once for each model and reasoning-effort combination. Change the active model and effort level directly in Cursor between runs.
+There are no per-developer API keys. Run the eval inside Cursor with the model and effort selected in the UI.
+
+1. Open a **new chat**.
+2. Select the model and reasoning effort (for example Claude Opus 5 + low).
+3. Attach [RECEIPT.md](RECEIPT.md) and send it.
+4. The selected model answers the frozen 32-question sample, writes `runs/<model>__<effort>.jsonl`, and runs `score_and_plot.py`.
+5. Repeat in a new chat for the next effort or model. Each run **appends** to `results/uipad_results.jsonl` and rebuilds `charts/`.
+
+The sample is 8 questions per answer type from the UiPad test split (`eval_set.json`, seed 0). Gold labels live in `eval_gold.json` and must not be opened until after raw answers are written.
 
 Keep all other conditions fixed:
 
-- Use the same screenshot and prompt for every model.
-- Start each question in a fresh conversation to avoid context leakage.
-- Do not provide the accessibility tree or information from another sample.
-- Do not manually correct, clarify, or retry an answer.
-- Preserve the complete response and reported token usage.
-- Randomize question order, or use the same fixed order for every condition.
+- Use the same screenshots and prompt for every model.
+- Start a new chat when model or effort changes.
+- Do not provide the accessibility tree or another sample's discussion.
+- Do not manually correct, clarify, or retry an answer after seeing the score.
 - Record unsupported effort levels as unavailable rather than substituting another level.
-
-For a lower-cost pilot, select a deterministic, stratified sample containing an equal number of questions from each answer type. Run the full test split only after validating the pipeline.
 
 ## Prompt
 
