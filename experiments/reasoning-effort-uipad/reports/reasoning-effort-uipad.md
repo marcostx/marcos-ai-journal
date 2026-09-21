@@ -6,7 +6,7 @@ Yes/no questions were already solved at the lowest available effort. Number and 
 
 ## Research question
 
-The design in [README.md](README.md) asks whether additional reasoning improves macOS UI understanding on [UiPad](https://huggingface.co/datasets/macpaw-research/UiPad), or whether it only adds latency and tokens.
+The design in [experiments/reasoning-effort-uipad/README.md](../experiments/reasoning-effort-uipad/README.md) asks whether additional reasoning improves macOS UI understanding on [UiPad](https://huggingface.co/datasets/macpaw-research/UiPad), or whether it only adds latency and tokens.
 
 The pre-registered hypothesis was that higher effort would help **counting** and **spatial** questions, and would add little for **text recognition** and **yes/no**.
 
@@ -37,7 +37,7 @@ Usage fields (`input_tokens`, `reasoning_tokens`, `output_tokens`, `latency_ms`)
 
 ## Overall accuracy
 
-![pass@1 versus reasoning effort](charts/pass_at_1_vs_effort.svg)
+![pass@1 versus reasoning effort](../experiments/reasoning-effort-uipad/charts/pass_at_1_vs_effort.svg)
 
 | Model | Effort | n | Correct | pass@1 | 95% Wilson CI |
 |---|---|---:|---:|---:|---|
@@ -67,13 +67,13 @@ The hypothesis splits cleanly once the four types are plotted separately.
 
 ### Yes/no — no headroom
 
-![pass@1 versus effort for yes/no](charts/pass_at_1_yes_no.svg)
+![pass@1 versus effort for yes/no](../experiments/reasoning-effort-uipad/charts/pass_at_1_yes_no.svg)
 
 Every model, at every effort, scored **8/8**. Extra reasoning cannot help a type that is already solved.
 
 ### Number — almost solved, one low-effort miss each
 
-![pass@1 versus effort for number](charts/pass_at_1_number.svg)
+![pass@1 versus effort for number](../experiments/reasoning-effort-uipad/charts/pass_at_1_number.svg)
 
 | Model | Lowest effort | Highest effort | Misses |
 |---|---|---|---|
@@ -85,7 +85,7 @@ Higher effort repaired those two counting misses and did not create new ones. Th
 
 ### String — one ambiguous window title
 
-![pass@1 versus effort for string](charts/pass_at_1_string.svg)
+![pass@1 versus effort for string](../experiments/reasoning-effort-uipad/charts/pass_at_1_string.svg)
 
 Seven of eight string items were solved by every condition. The remaining item is q15: *“What is the title of current window?”* Gold is **AI Characters** (the modal). Several runs answered **Typing Mind** (the app title bar behind the modal).
 
@@ -99,7 +99,7 @@ This is not a recognition failure. Both strings are on screen. Higher effort som
 
 ### Coordinates — where effort actually matters
 
-![pass@1 versus effort for coordinates](charts/pass_at_1_coordinates.svg)
+![pass@1 versus effort for coordinates](../experiments/reasoning-effort-uipad/charts/pass_at_1_coordinates.svg)
 
 | Model | `none` | `low` | `medium` | `high` | `xhigh` | `max` | Mean IoU at best effort |
 |---|---:|---:|---:|---:|---:|---:|---:|

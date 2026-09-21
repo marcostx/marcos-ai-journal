@@ -147,7 +147,7 @@ Across models, compare both maximum accuracy and efficiency. Do not assume that 
 - Parsed and scored results
 - Overall and per-answer-type summary metrics
 - Accuracy-versus-effort and accuracy-versus-cost charts
-- A short report describing whether added reasoning helped, where it helped, and whether the improvement justified its cost
+- A short report describing whether added reasoning helped, where it helped, and whether the improvement justified its cost → [reports/reasoning-effort-uipad.md](reports/reasoning-effort-uipad.md)
 
 ## Success criterion
 
