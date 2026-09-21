@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "row_id": "q00",
+      "screen_id": 1707127615,
+      "gold_answer": "PixelSnap",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q01",
+      "screen_id": 1707212987,
+      "gold_answer": "Yes",
+      "answer_type": "yes/no"
+    },
+    {
+      "row_id": "q02",
+      "screen_id": 1707239031,
+      "gold_answer": "QWERTY",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q03",
+      "screen_id": 1707240051,
+      "gold_answer": "No",
+      "answer_type": "yes/no"
+    },
+    {
+      "row_id": "q04",
+      "screen_id": 1707175217,
+      "gold_answer": "Helvetica Neue",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q05",
+      "screen_id": 1707237669,
+      "gold_answer": "10",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q06",
+      "screen_id": 1707169373,
+      "gold_answer": "20000",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q07",
+      "screen_id": 1707230331,
+      "gold_answer": "[(154, 92), (222, 160)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q08",
+      "screen_id": 1707082154,
+      "gold_answer": "[(1448, 0), (1520, 104)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q09",
+      "screen_id": 1707211222,
+      "gold_answer": "[(100, 504), (652, 604)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q10",
+      "screen_id": 1707243074,
+      "gold_answer": "Yes",
+      "answer_type": "yes/no"
+    },
+    {
+      "row_id": "q11",
+      "screen_id": 1707175217,
+      "gold_answer": "No",
+      "answer_type": "yes/no"
+    },
+    {
+      "row_id": "q12",
+      "screen_id": 1707172782,
+      "gold_answer": "4",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q13",
+      "screen_id": 1707209841,
+      "gold_answer": "No",
+      "answer_type": "yes/no"
+    },
+    {
+      "row_id": "q14",
+      "screen_id": 1707234991,
+      "gold_answer": "[(908, 20), (1206, 84)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q15",
+      "screen_id": 1707209841,
+      "gold_answer": "AI Characters",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q16",
+      "screen_id": 1707234991,
+      "gold_answer": "No",
+      "answer_type": "yes/no"
+    },
+    {
+      "row_id": "q17",
+      "screen_id": 1707237633,
+      "gold_answer": "Export",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q18",
+      "screen_id": 1707242914,
+      "gold_answer": "20",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q19",
+      "screen_id": 1707212987,
+      "gold_answer": "yelyzaveta.boiarchuk@gmail.com",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q20",
+      "screen_id": 1707127543,
+      "gold_answer": "7",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q21",
+      "screen_id": 1707242555,
+      "gold_answer": "10",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q22",
+      "screen_id": 1707210535,
+      "gold_answer": "[(866, 1214), (1054, 1294)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q23",
+      "screen_id": 1707174226,
+      "gold_answer": "[(1834, 116), (2020, 164)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q24",
+      "screen_id": 1707169277,
+      "gold_answer": "440",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q25",
+      "screen_id": 1707242778,
+      "gold_answer": "There are a variety of Study Schedules.",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q26",
+      "screen_id": 1707172782,
+      "gold_answer": "[(1032, 1150), (1356, 1230)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q27",
+      "screen_id": 1707175562,
+      "gold_answer": "No",
+      "answer_type": "yes/no"
+    },
+    {
+      "row_id": "q28",
+      "screen_id": 1707209861,
+      "gold_answer": "1",
+      "answer_type": "number"
+    },
+    {
+      "row_id": "q29",
+      "screen_id": 1707212924,
+      "gold_answer": "[(28, 1212), (152, 1292)]",
+      "answer_type": "coordinates"
+    },
+    {
+      "row_id": "q30",
+      "screen_id": 1707210480,
+      "gold_answer": "Diarly",
+      "answer_type": "string"
+    },
+    {
+      "row_id": "q31",
+      "screen_id": 1707212924,
+      "gold_answer": "Yes",
+      "answer_type": "yes/no"
+    }
+  ]
+}

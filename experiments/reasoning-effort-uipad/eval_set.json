@@ -1,0 +1,266 @@
+{
+  "dataset": "macpaw-research/UiPad",
+  "split": "test",
+  "source": "ui_questions_test.tsv",
+  "seed": 0,
+  "per_answer_type": 8,
+  "n": 32,
+  "items": [
+    {
+      "row_id": "q00",
+      "screen_id": 1707127615,
+      "app": "Setapp",
+      "question": "What is the name of the app with the 'HOT' label?",
+      "image": "eval_images/1707127615.png",
+      "hf_path": "app_data/Setapp/1707127615/Setapp-1707127616.74.png"
+    },
+    {
+      "row_id": "q01",
+      "screen_id": 1707212987,
+      "app": "Timing",
+      "question": "Can i skip the screen?",
+      "image": "eval_images/1707212987.png",
+      "hf_path": "app_data/Timing/1707212987/Timing-1707212988.90.png"
+    },
+    {
+      "row_id": "q02",
+      "screen_id": 1707239031,
+      "app": "KeyKey Typing Tutor",
+      "question": "What's the selected layout?",
+      "image": "eval_images/1707239031.png",
+      "hf_path": "app_data/KeyKey Typing Tutor/1707239031/-1707239034.13.png"
+    },
+    {
+      "row_id": "q03",
+      "screen_id": 1707240051,
+      "app": "GlueMotion",
+      "question": "Is the current top toolbar item \"Frames\"?",
+      "image": "eval_images/1707240051.png",
+      "hf_path": "app_data/GlueMotion/1707240051/GlueMotion-1707240052.37.png"
+    },
+    {
+      "row_id": "q04",
+      "screen_id": 1707175217,
+      "app": "Numbers",
+      "question": "What font is selected on the screen?",
+      "image": "eval_images/1707175217.png",
+      "hf_path": "app_data/Numbers/1707175217/Numbers-1707175217.85.png"
+    },
+    {
+      "row_id": "q05",
+      "screen_id": 1707237669,
+      "app": "TextSoap",
+      "question": "How many actions are listed in the sidebar menu?",
+      "image": "eval_images/1707237669.png",
+      "hf_path": "app_data/TextSoap/1707237669/TextSoap-1707237673.11.png"
+    },
+    {
+      "row_id": "q06",
+      "screen_id": 1707169373,
+      "app": "Chronicle",
+      "question": "What is the amount of the income named 'Salary' in UAH?",
+      "image": "eval_images/1707169373.png",
+      "hf_path": "app_data/Chronicle/1707169373/Chronicle-1707169374.53.png"
+    },
+    {
+      "row_id": "q07",
+      "screen_id": 1707230331,
+      "app": "Chrome",
+      "question": "Where do I click to reload the page?",
+      "image": "eval_images/1707230331.png",
+      "hf_path": "app_data/Chrome/1707230331/Google Chrome-1707230332.39.png"
+    },
+    {
+      "row_id": "q08",
+      "screen_id": 1707082154,
+      "app": "Reminders",
+      "question": "I want to add a new reminder, where should I click?",
+      "image": "eval_images/1707082154.png",
+      "hf_path": "app_data/Reminders/1707082154/Reminders-1707082155.34.png"
+    },
+    {
+      "row_id": "q09",
+      "screen_id": 1707211222,
+      "app": "Canary Mail",
+      "question": "Where do I click to add account?",
+      "image": "eval_images/1707211222.png",
+      "hf_path": "app_data/Canary Mail/1707211222/Canary Mail-1707211223.27.png"
+    },
+    {
+      "row_id": "q10",
+      "screen_id": 1707243074,
+      "app": "Swish",
+      "question": "Is there a 'Quit' button on the screen?",
+      "image": "eval_images/1707243074.png",
+      "hf_path": "app_data/Swish/1707243074/Swish-1707243075.12.png"
+    },
+    {
+      "row_id": "q11",
+      "screen_id": 1707175217,
+      "app": "Numbers",
+      "question": "Is the \"Wrap text in cell\" option selected?",
+      "image": "eval_images/1707175217.png",
+      "hf_path": "app_data/Numbers/1707175217/Numbers-1707175217.85.png"
+    },
+    {
+      "row_id": "q12",
+      "screen_id": 1707172782,
+      "app": "Clock",
+      "question": "How many tabs are visible in the top of the screen?",
+      "image": "eval_images/1707172782.png",
+      "hf_path": "app_data/Clock/1707172782/Clock-1707172783.16.png"
+    },
+    {
+      "row_id": "q13",
+      "screen_id": 1707209841,
+      "app": "Typing-Mind",
+      "question": "Is there a \"Save\" button on the screen?",
+      "image": "eval_images/1707209841.png",
+      "hf_path": "app_data/Typing-Mind/1707209841/Typing Mind-1707209842.48.png"
+    },
+    {
+      "row_id": "q14",
+      "screen_id": 1707234991,
+      "app": "Bettertouchtool",
+      "question": "Where should I click to change \"Touch Bar Settings\"?",
+      "image": "eval_images/1707234991.png",
+      "hf_path": "app_data/Bettertouchtool/1707234991/BetterTouchTool-1707234991.91.png"
+    },
+    {
+      "row_id": "q15",
+      "screen_id": 1707209841,
+      "app": "Typing-Mind",
+      "question": "What is the title of current window?",
+      "image": "eval_images/1707209841.png",
+      "hf_path": "app_data/Typing-Mind/1707209841/Typing Mind-1707209842.48.png"
+    },
+    {
+      "row_id": "q16",
+      "screen_id": 1707234991,
+      "app": "Bettertouchtool",
+      "question": "Is the selected app \"Finder\"?",
+      "image": "eval_images/1707234991.png",
+      "hf_path": "app_data/Bettertouchtool/1707234991/BetterTouchTool-1707234991.91.png"
+    },
+    {
+      "row_id": "q17",
+      "screen_id": 1707237633,
+      "app": "TextSoap",
+      "question": "What is the title of this screen?",
+      "image": "eval_images/1707237633.png",
+      "hf_path": "app_data/TextSoap/1707237633/TextSoap-1707237634.79.png"
+    },
+    {
+      "row_id": "q18",
+      "screen_id": 1707242914,
+      "app": "Merlin Project Express",
+      "question": "How many days per month are selected?",
+      "image": "eval_images/1707242914.png",
+      "hf_path": "app_data/Merlin Project/1707242914/Merlin Project Express-1707242915.24.png"
+    },
+    {
+      "row_id": "q19",
+      "screen_id": 1707212987,
+      "app": "Timing",
+      "question": "What is typed in the textfield on the screen?",
+      "image": "eval_images/1707212987.png",
+      "hf_path": "app_data/Timing/1707212987/Timing-1707212988.90.png"
+    },
+    {
+      "row_id": "q20",
+      "screen_id": 1707127543,
+      "app": "Setapp",
+      "question": "How many items with icons are listed in the sidebar menu?",
+      "image": "eval_images/1707127543.png",
+      "hf_path": "app_data/Setapp/1707127543/Setapp-1707127544.46.png"
+    },
+    {
+      "row_id": "q21",
+      "screen_id": 1707242555,
+      "app": "NotePlan",
+      "question": "How many tabs are there in the top menu?",
+      "image": "eval_images/1707242555.png",
+      "hf_path": "app_data/NotePlan/1707242555/NotePlan-1707242556.68.png"
+    },
+    {
+      "row_id": "q22",
+      "screen_id": 1707210535,
+      "app": "Diarly",
+      "question": "Where should I click to start journaling?",
+      "image": "eval_images/1707210535.png",
+      "hf_path": "app_data/Diarly/1707210535/Diarly-1707210536.23.png"
+    },
+    {
+      "row_id": "q23",
+      "screen_id": 1707174226,
+      "app": "Podcasts",
+      "question": "I want to view my library of podcasts, where should I click?",
+      "image": "eval_images/1707174226.png",
+      "hf_path": "app_data/Podcasts/1707174226/Podcasts-1707174227.32.png"
+    },
+    {
+      "row_id": "q24",
+      "screen_id": 1707169277,
+      "app": "Chronicle",
+      "question": "What is the average paid amount for \"Netflix\" bill, in UAH?",
+      "image": "eval_images/1707169277.png",
+      "hf_path": "app_data/Chronicle/1707169277/Chronicle-1707169278.98.png"
+    },
+    {
+      "row_id": "q25",
+      "screen_id": 1707242778,
+      "app": "Studies",
+      "question": "What text is displayed in the note content?",
+      "image": "eval_images/1707242778.png",
+      "hf_path": "app_data/Studies/1707242778/Studies-1707242779.46.png"
+    },
+    {
+      "row_id": "q26",
+      "screen_id": 1707172782,
+      "app": "Clock",
+      "question": "I want to start the timer, where should i click?",
+      "image": "eval_images/1707172782.png",
+      "hf_path": "app_data/Clock/1707172782/Clock-1707172783.16.png"
+    },
+    {
+      "row_id": "q27",
+      "screen_id": 1707175562,
+      "app": "GarageBand",
+      "question": "Are there any projects created?",
+      "image": "eval_images/1707175562.png",
+      "hf_path": "app_data/GarageBand/1707175562/GarageBand-1707175563.15.png"
+    },
+    {
+      "row_id": "q28",
+      "screen_id": 1707209861,
+      "app": "Typing-Mind",
+      "question": "How many input text fields are there on the TOP screen?",
+      "image": "eval_images/1707209861.png",
+      "hf_path": "app_data/Typing-Mind/1707209861/Typing Mind-1707209862.63.png"
+    },
+    {
+      "row_id": "q29",
+      "screen_id": 1707212924,
+      "app": "Timing",
+      "question": "Where should I click to go to the previos screen?",
+      "image": "eval_images/1707212924.png",
+      "hf_path": "app_data/Timing/1707212924/Timing-1707212925.15.png"
+    },
+    {
+      "row_id": "q30",
+      "screen_id": 1707210480,
+      "app": "Diarly",
+      "question": "What is the name of the displayed app?",
+      "image": "eval_images/1707210480.png",
+      "hf_path": "app_data/Diarly/1707210480/Diarly-1707210482.06.png"
+    },
+    {
+      "row_id": "q31",
+      "screen_id": 1707212924,
+      "app": "Timing",
+      "question": "Is \"Start tracking at login' turned on?",
+      "image": "eval_images/1707212924.png",
+      "hf_path": "app_data/Timing/1707212924/Timing-1707212925.15.png"
+    }
+  ]
+}
