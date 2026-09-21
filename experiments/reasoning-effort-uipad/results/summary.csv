@@ -1,0 +1,16 @@
+model,reasoning_effort,n,pass_at_1,n_correct,pass_number,pass_yes_no,pass_string,pass_coordinates
+GPT-5.6 Sol,none,32,0.7500,24,1.0,1.0,1.0,0.0
+GPT-5.6 Sol,low,32,0.6875,22,0.875,1.0,0.875,0.0
+GPT-5.6 Sol,medium,32,0.7500,24,1.0,1.0,1.0,0.0
+GPT-5.6 Sol,high,32,0.7188,23,1.0,1.0,0.875,0.0
+GPT-5.6 Sol,xhigh,32,0.7188,23,1.0,1.0,0.875,0.0
+GPT-5.6 Sol,max,32,0.7188,23,1.0,1.0,0.875,0.0
+Claude Opus 5,low,32,0.9062,29,1.0,1.0,0.875,0.75
+Claude Opus 5,medium,32,0.9375,30,1.0,1.0,0.875,0.875
+Claude Opus 5,high,32,0.9375,30,1.0,1.0,0.875,0.875
+Claude Opus 5,xhigh,32,1.0000,32,1.0,1.0,1.0,1.0
+Claude Opus 5,max,32,0.9375,30,1.0,1.0,0.875,0.875
+Cursor Grok 4.6,low,32,0.7188,23,0.875,1.0,0.875,0.125
+Cursor Grok 4.6,medium,32,1.0000,32,1.0,1.0,1.0,1.0
+Cursor Grok 4.6,high,32,0.9688,31,1.0,1.0,1.0,0.875
+Cursor Grok 4.6,xhigh,32,1.0000,32,1.0,1.0,1.0,1.0

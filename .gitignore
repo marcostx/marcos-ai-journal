@@ -1,0 +1,7 @@
+.venv/
+.env
+
+experiments/reasoning-effort-uipad/data/
+experiments/reasoning-effort-uipad/eval_images/
+experiments/reasoning-effort-uipad/runs/*.jsonl
+experiments/reasoning-effort-uipad/results/uipad_results.jsonl
